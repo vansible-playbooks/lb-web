@@ -1,0 +1,7 @@
+---  
+# lb
+- hosts: lb
+  gather_facts: yes
+  become: yes
+  roles:
+    - lb-haproxy

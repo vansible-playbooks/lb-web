@@ -1,0 +1,7 @@
+---
+# web
+- hosts: web
+  gather_facts: yes
+  become: yes
+  roles:
+    - web-nginx
